@@ -1,28 +1,30 @@
+/*
 {
-  "name": "telemost-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./src/index.js",
-    "dev": "nodemon ./src/index.js"
+  "name": "telemost-server",         // The name of your project
+  "version": "1.0.0",                  // The current version of your project
+  "description": "",                   // A brief description of your project
+  "main": "index.js",                  // The main entry point of your application
+  "scripts": {                         // Scripts to run various commands
+    "start": "node ./src/index.js",    // Command to start the server
+    "dev": "nodemon ./src/index.js"    // Command to start the server in development mode with automatic restarts on file changes
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "cors": "^2.8.5",
-    "crypto-js": "^4.1.1",
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1",
-    "pg": "^8.8.0",
-    "sequelize": "^6.21.4"
+  "keywords": [],                      // Keywords associated with your project
+  "author": "",                        // The author of the project
+  "license": "ISC",                    // The license under which the project is distributed
+  "dependencies": {                    // List of runtime dependencies for your project
+    "bcrypt": "^5.0.1",                // Library for hashing passwords
+    "cors": "^2.8.5",                  // Package to enable Cross-Origin Resource Sharing (CORS)
+    "crypto-js": "^4.1.1",             // Library for cryptographic algorithms
+    "dotenv": "^16.0.2",               // Loads environment variables from a .env file into process.env
+    "express": "^4.18.1",              // Fast, unopinionated, minimalist web framework for Node.js
+    "pg": "^8.8.0",                    // PostgreSQL client for Node.js
+    "sequelize": "^6.21.4"             // Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite, and Microsoft SQL Server
   },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
+  "devDependencies": {                 // List of development dependencies for your project
+    "nodemon": "^2.0.19"               // Utility that monitors for changes in your source code and automatically restarts your server
   },
-  "engines": {
-    "node": "16.x"
+  "engines": {                         // Specifies the Node.js version compatibility
+    "node": "16.x"                     // Your project is designed to run on Node.js version 16.x
   }
 }
+*/
